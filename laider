@@ -1,0 +1,12 @@
+#!/bin/sh
+
+OS=$(uname)
+
+if [ "$OS" = "Linux" ] || [ "$OS" = "Darwin" ]; then
+    ./laider.sh "$@"
+elif [ "$OS" = "MINGW64_NT-10.0" ] || [ "$OS" = "MSYS_NT-10.0" ] || [ "$OS" = "CYGWIN_NT-10.0" ]; then
+    cmd.exe /c laider.bat "$@"
+else
+    echo "Unsupported operating system."
+    exit 1
+fi
