@@ -10,7 +10,7 @@ fi
 # Clone the repository into .aider/codebase if it doesn't exist
 if [ ! -d ".aider/codebase" ]; then
     echo "Cloning repository into .aider/codebase"
-    git clone https://github.com/your-repo/aider-wrapper.git .aider/codebase
+    git clone https://github.com/Tarekun/laider.git .aider/codebase
 fi
 
 # Navigate to the cloned repository directory

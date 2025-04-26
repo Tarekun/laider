@@ -11,7 +11,7 @@ The `aider` library is a powerful tool for coding with AI assistance. This wrapp
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/your-repo/aider-wrapper.git
+git clone https://github.com/Tarekun/laider.git
 cd aider-wrapper
 ```
 
